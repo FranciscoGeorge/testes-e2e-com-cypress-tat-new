@@ -10,8 +10,9 @@ module.exports = defineConfig({
     },
 
 
-    setupNodeEvents() {
-      // implement node event listeners here
+    setupNodeEvents(on, config) {
+      require('@cypress/grep/src/plugin')(config)
+      return config
     },
   },
   projectId: 'x2na7z',
