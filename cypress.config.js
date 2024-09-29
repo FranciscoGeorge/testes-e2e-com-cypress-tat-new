@@ -14,4 +14,5 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  projectId: 'x2na7z',
 })
